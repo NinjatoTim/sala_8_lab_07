@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html lang="es">  
+    <head >  
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Contact Us</title>
+        <style>
+            body { font-family: Arial, sans-serif; background-color: #f4f9f9; padding: 20px; }
+            .form-container { max-width: 400px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+            h1 { text-align: center; color: #333333; font-size: 45px; }
+
+            h2 { text-align: center; color: #333333; }
+            .form-group { margin-bottom: 15px; }
+            label { display: block; margin-bottom: 5px; color: #666; }
+            input[type="text"], input[type="email"], input[type="tel"] { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+            textarea { width: 100%; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; resize: vertical; }
+            button { width: 100%; padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+            button:hover { background-color: #0056b3; }
+        </style>
+        
+    </head>
+
+    <body>
+        <div> 
+            <h1>Contact Us</h1> 
+             
+            <p>Si tiene alguna pregunta o inquietud, no dude en contactarnos a través de los siguientes medios:</p>
+            <ul>  <!--- esa etiqueta de lista desordenada es para enumerar los medios de contacto --->
+                <li>Correo electrónico: <a href="mailto:pelisblog.soporte@gmail.com">pelisblog.soporte@gmail.com</a></li>
+                <li>Teléfono: +1 (555) 123-4567</li>
+            </ul>
+        </div> 
+
+        <p>Estamos aquí para ayudarlo y responder a sus consultas lo antes posible.</p>
+        <p>O puede dejar sus comentarios en el formulario de contacto:</p>  
+
+    <div class="form-container">
+    
+    <form action="/enviar-datos" >
+        <div class="form-group">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required placeholder="Ej. juan@correo.com">
+        </div>
+        <div class="form-group">
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ej. +52 55 1234 5678">
+        </div>
+
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label> 
+            <textarea id="mensaje" name="mensaje" required placeholder="Escriba su mensaje aquí..."></textarea> 
+        </div>
+        <button type="submit">Enviar Registro</button>
+    </form>
+</div>
+
+    
+
+    </body>
+</html>
