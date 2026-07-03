@@ -9,20 +9,24 @@ body{
 .navbar{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   color: white;
+  background-color: #29c702;
 }
 
 
 #logo{
-  width: 50px;
+  width: 100px;
 }
 
 .opc a {
   text-decoration: none;
   color: white;
   background-color: #0289c7; /* Color de fondo del "botón" */
-  padding: 10px 20px;        /* Espaciado interno para darle volumen */
+  padding: 10px 50px;        /* Espaciado interno para darle volumen */
   font-weight: bold;
+}
 
+.opc{
+    margin: auto;
 }
