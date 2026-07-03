@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+body{
+  background-color: rgb(217, 255, 0);
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+
+#logo{
+  width: 50px;
+}
+
+.opc a {
+  text-decoration: none;
+  color: white;
+  background-color: #0289c7; /* Color de fondo del "botón" */
+  padding: 10px 20px;        /* Espaciado interno para darle volumen */
+  font-weight: bold;
+
+}
