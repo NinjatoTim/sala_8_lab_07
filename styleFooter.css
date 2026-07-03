@@ -1,5 +1,25 @@
-#pie {
-    background-color: lightblue;
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #ACC8E5;
+    color: #112A46;
+    padding: 30px 40px;
+
+}
+
+.columna {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.columnaCentro {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer ul li {
+    list-style: none
 }
 
 .titulo2 {
@@ -9,10 +29,8 @@
 }
 
 #titulo {
-    font-size: 24px;
+    font-size: 20px;
 
 }
 
-#nombres {
-    list-style-type: none
-}
+.contenido {}
