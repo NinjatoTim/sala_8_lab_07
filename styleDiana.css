@@ -5,13 +5,32 @@ html {
   
 /* Body */
 .bloque {
-  background-color: rgb(233, 13, 13);
+  background-color: rgb(255, 255, 255);
   width: 85%;
   margin: 24px auto;
   padding: 20px;
-  border: 2px solid #df6767;
+  border: 2px solid #df6767 ;
+  border-radius:20px;
 }
 
 .bloque {
-  color: aliceblue;
+  color: rgb(42, 42, 43);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.imgFilms{
+  width: 250px;
+}
+
+body{
+  background-color: #df6767;
+}
+
+h2{
+  color: rgb(116, 15, 15);
+}
+
+h3{
+  color: rgb(0, 0, 0);
 }
