@@ -2,20 +2,29 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background: #ACC8E5;
-    color: #112A46;
+    background: #DF6767;
+    color: #000000;
     padding: 30px 40px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .columna {
     margin-bottom: 20px;
     font-size: 12px;
+    background-color: #fff;
+    border-radius: 14px;
+    margin: -20px;
+    padding: -10px;
+
+
 }
 
 .columnaCentro {
     text-align: center;
     margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 14px;
 }
 
 .footer ul li {
