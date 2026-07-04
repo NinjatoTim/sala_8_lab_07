@@ -10,6 +10,8 @@ html {
   justify-content:center;
   color: white;
   background-color: #db4646;
+  position: fixed;
+  width: 100%;
 }
 
 
