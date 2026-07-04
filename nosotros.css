@@ -4,16 +4,24 @@
 
 body {
   margin: 12;
-  font-family: Arial, sans-serif; 
-  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #df6767;
   color: #100f0f;
+  text-align: center;
+  
 }
 
-.encabezado {
-  background-color: rgba(255, 255, 255, 0.621);
-  padding: 24px;
-  border-bottom: 14px solid #222;
+
+.bloque {
+  background-color: rgb(255, 255, 255);
+  width: 85%;
+  margin: 24px auto;
+  padding: 20px;
+  border: 2px solid #df6767;
+  border-radius: 20px;
+
 }
-.encabezado h1 {
-  margin: 0 0 12px 0;
+
+.bloque {
+  color: rgb(12, 14, 15);
 }
