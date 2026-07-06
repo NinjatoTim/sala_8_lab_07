@@ -5,13 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">  
         <title>Contact Us</title>
         <style>
-            body { font-family: Arial, sans-serif; background-color: #f4f9f9; padding: 20px; }
+            body { font-family: Arial, sans-serif; background-color: #df6767; padding: 20px; }
             .form-container { max-width: 400px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-            h1 { text-align: center; color: #333333; font-size: 45px; }
+            h1 { text-align: center; color: #ffffff; font-size: 45px; }
 
-            h2 { text-align: center; color: #333333; }
-            .form-group { margin-bottom: 15px; }
+            h2 { text-align: center; color: #ffffff; }
+            .form-group { margin-bottom: 15px;}
             label { display: block; margin-bottom: 5px; color: #666; }
+            .bloque { color: #ffffff; background-color: #df6767; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+            #formulario-contacto { color:#ffffff}
+
             input[type="text"], input[type="email"], input[type="tel"] { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
             textarea { width: 100%; padding: 20px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; resize: vertical; }
             button { width: 100%; padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
@@ -21,18 +24,27 @@
     </head>
 
     <body>
-        <div> 
-            <h1>Contact Us</h1> 
-             
+    
+        <h1>Contact Us</h1> 
+        <section class="bloque correos">
             <p>Si tiene alguna pregunta o inquietud, no dude en contactarnos a través de los siguientes medios:</p>
-            <ul>  <!--- esa etiqueta de lista desordenada es para enumerar los medios de contacto --->
-                <li>Correo electrónico: <a href="mailto:pelisblog.soporte@gmail.com">pelisblog.soporte@gmail.com</a></li>
-                <li>Teléfono: +1 (555) 123-4567</li>
+            <ul> <!-- Esta lista desordenada enumera los medios de contacto -->
+                <li>Correo electrónico: <a href="mailto:movitime.soporte@movitime.com">movitime.soporte@movitime.com</a></li>
+                <li>Teléfono: <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
             </ul>
-        </div> 
 
+            <ul>
+            <p>Atención al Cliente:</p>
+                <li>correo: <a href="mailto:servicioalcliente@movitime.com">servicioalcliente@movitime.com</a></li>
+                <li>teléfono: <a href="tel:+15559876543">+1 (555) 987-6543</a></li>
+            </ul>
+        </section>
+
+        <section class="Bloque contacto" id="formulario-contacto">
+            <h2>Formulario de Contacto</h2>
         <p>Estamos aquí para ayudarlo y responder a sus consultas lo antes posible.</p>
         <p>O puede dejar sus comentarios en el formulario de contacto:</p>  
+        </section>
 
     <div class="form-container">
     
@@ -57,8 +69,6 @@
         <button type="submit">Enviar Registro</button>
     </form>
 </div>
-
-    
 
     </body>
 </html>
